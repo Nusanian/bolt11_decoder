@@ -23,7 +23,7 @@ enum PayRequestPrefix {
   lnbc,
   lntb,
   lntn, // Nusacoin testnet (HRP "lntn")
-  lnn, // Nusacoin mainnet (HRP "lnn")
+  lnnu, // Nusacoin mainnet (HRP "lnnu" = "ln" + Bech32HRPSegwit "nu", see lnd chainreg/nusacoin.go + zpay32)
 }
 
 class Bolt11PaymentRequest {
